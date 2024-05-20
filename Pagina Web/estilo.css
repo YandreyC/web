@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align:center;
+    background-color: black;
+    background: linear-gradient(rgba(74, 61, 61, 0.5), rgba(57, 55, 55, 0.621)), url('https://previews.123rf.com/images/welcomia/welcomia1208/welcomia120800030/14699603-fondo-fresco-comunicaci%C3%B3n-azul-ilustraci%C3%B3n-horizontal-conexiones-globales-ilustraciones.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    display: block;
+    -webkit-text-stroke:1px white;
+    font-weight: bolder;  
+}
+
+.Verticalmenu { 
+    width: 200px;
+    height: 100vh; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(82, 77, 77, 0.5)), url('https://i.pinimg.com/originals/7b/95/60/7b95604b9a538cd339a0dcbf5b2d9f02.jpg');
+    background-position: right;
+    background-size: auto;
+    position: fixed; 
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block; 
+    padding: 5px 10px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    object-fit: cover; 
+    width: 180px;
+}
+
+li a:hover {
+    color: #000;
+    background-color: #fff;           
+}
+
+nav li ul {
+    display: none;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    width: 100%; 
+}
+
+ul  {
+    padding-top: 116.4px;
+}
+
+nav li:hover ul {
+    display: block; 
+}
+
+.pagina {
+    display: none;
+}
+
+.pagina:target {
+    display: block;
+}
+
+nav {
+    height: 100%;
+    width: 20%;
+    float: left; 
+}
+
+.pagina:target {
+    width: 80%;
+    float: right;
+    padding: 30px;
+}
+
+h2 {
+    padding: 30px;
+    font-size: 40px;
+}
+
+p {
+    padding: 30px;
+    padding-top: 5px;
+    margin-right: 100px;
+    font-family: serif;
+    font-size: 25px;
+}
+
+h4 {
+    padding: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.608), rgba(0, 0, 0, 0.607)), url('https://dinahosting.com/blog/cont/uploads/2019/08/programaci%C3%B3n-mitos.jpg');
+    background-size: cover;
+    color: white;
+}
